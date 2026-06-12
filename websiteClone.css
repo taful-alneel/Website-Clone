@@ -31,14 +31,12 @@ ul {
   display: flex;
   align-items: center;
   height: 80px;
-  background-color: transparent;
+  padding: 0 ;
+  justify-content: space-between;
 }
 
 .nav-logo {
   width: 200px;
-  height: 22px;
-  mix-blend-mode: screen; 
-
 }
 
 .sub-pages {
@@ -84,18 +82,6 @@ ul {
   background-repeat: no-repeat;
 }
 
-
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  /* background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0.1) 60%,
-    rgba(0, 0, 0, 0) 100%
-  ); */
-}
 
 
 .content {
@@ -158,6 +144,23 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* object-position: center; */
   z-index: 0;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
