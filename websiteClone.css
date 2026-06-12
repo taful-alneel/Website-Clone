@@ -9,7 +9,7 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: D-DIN, Arial, Verdana, sans-serif;
 }
 
 a {
@@ -19,26 +19,26 @@ a {
 
 ul {
   list-style: none;
+
 }
 
 
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 100;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 2rem;
-  height: 60px;
-  background-color: rgba(0, 0, 0, 0.6);
+  height: 80px;
+  background-color: transparent;
 }
 
-.nav-logo img {
+.nav-logo {
+  width: 200px;
   height: 22px;
-  filter: brightness(0) invert(1);
+  mix-blend-mode: screen; 
+
 }
 
 .sub-pages {
@@ -106,27 +106,21 @@ ul {
   max-width: 700px;
 }
 
-/* .date {
+.date {
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-} */
-
-.title {
-  font-size: clamp(1.8rem, 5vw, 4rem);
-  font-weight: 500;
-  line-height: 1.05;
-  letter-spacing: 0.02em;
-  margin-bottom: 1.2rem;
 }
 
-/* .desc {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  opacity: 0.85;
-} */
+.title {
+  font-size: clamp(1.00rem, 4vw, 4rem);
+  font-weight: 600;
+  line-height: 1.00;
+  margin-bottom: 0.5rem;
+}
+
+
 
 .hero-btn {
   display: inline-block;
@@ -156,3 +150,14 @@ ul {
   background-image: url("images/human.jpeg");
 }
 
+
+.vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+  z-index: 0;
+}
