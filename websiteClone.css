@@ -68,9 +68,6 @@ ul {
   transition: background 0.2s;
 }
 
-/* .nav-launch-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-} */
 
 
 .hero {
@@ -138,8 +135,18 @@ p {
 .hero-btn:hover {
   background: rgba(255, 255, 255, 0.15);
 }
-
-
+<---->
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.90) 0%,
+    rgba(0, 0, 0, 0.40) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
 
 
 #REV {
