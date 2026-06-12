@@ -1,28 +1,23 @@
 *{
     background-color: black;
     color: #fff;
+    font-family: Arial, Verdana, sans-serif;
 }
 .hero {
   position: relative;
   width: 100%;
-        /* each section = full screen */
   overflow: hidden;
 }
 
-.hero-bg {
+.hero-pg {
   width: 100%;
   height: 100%;
-  object-fit: cover;    /* fills without stretching */
+  object-fit: cover;   
   object-position: center;
   display: block;
 }
 
-.hero-content {
-  position: absolute;
-  bottom: 12%;
-  left: 4%;
-  max-width: 700px;
-}
+
 
 .hero-date {
   font-size: 0.8rem;
@@ -40,12 +35,6 @@
 }
 
 
-.hero-desc {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  opacity: 0.85;
-}
 
 .hero-btn {
   display: inline-block;
