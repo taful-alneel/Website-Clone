@@ -68,9 +68,9 @@ ul {
   transition: background 0.2s;
 }
 
-.nav-launch-btn:hover {
+/* .nav-launch-btn:hover {
   background: rgba(255, 255, 255, 0.1);
-}
+} */
 
 
 .hero {
@@ -96,14 +96,14 @@ ul {
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /* margin-bottom: 0.5rem; */
+  margin-bottom: 0.5rem;
 }
 
 .title {
   font-size: clamp(1.00rem, 4vw, 4rem);
   font-weight: 600;
   line-height: 1.00;
-  /* margin-bottom: 0.5rem; */
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -115,13 +115,12 @@ p {
 }
 
 .right-alignment {
+
   left: auto;
-  right: 4%;
-  /* bottom: auto;       removes the bottom: 12% */
-  top: 80%;            /* centers it vertically */
-  text-align: left;
-  max-width: 900px;
-  justify-content: left;
+  right: 2%;
+  bottom: auto;
+  top: 20%;
+  max-width: 700px;
 }
 
 .hero-btn {
