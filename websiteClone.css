@@ -96,17 +96,33 @@ ul {
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .title {
   font-size: clamp(1.00rem, 4vw, 4rem);
   font-weight: 600;
   line-height: 1.00;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
+p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+  max-width: 550px;
+}
 
+.right-alignment {
+  left: auto;
+  right: 4%;
+  /* bottom: auto;       removes the bottom: 12% */
+  top: 80%;            /* centers it vertically */
+  text-align: left;
+  max-width: 900px;
+  justify-content: left;
+}
 
 .hero-btn {
   display: inline-block;
